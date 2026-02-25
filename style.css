@@ -1,9 +1,9 @@
 
 body{
-    margin: 0 30px;
+    margin: 0 ;
     padding: 0;
     box-sizing: border-box;
-    background-color: grey;
+ background-image: url('./img/cork.png')
    
 }
 h1.title {
@@ -14,8 +14,21 @@ h1.title {
   background-image: url('./img/wall.png');
 }
 .container{
-    background-image: url('./img/cork.png')
+    display:flex;
+    margin: 0 250px 0 250px;
+}
+.card{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+.card-pin{
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
 .card-item{
-    display:flex;
+    background-color:white;
 }
