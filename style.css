@@ -1,34 +1,58 @@
-
-body{
-    margin: 0 ;
-    padding: 0;
+/* BODY---------------------*/
+* {
     box-sizing: border-box;
- background-image: url('./img/cork.png')
-   
+    font-family: 'Baloo 2', sans-serif;
 }
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/cork.png')      
+}
+/* HEADER-------------------------------*/
 h1.title {
-    margin-top:0;
- font-family: 'Baloo 2', sans-serif;
-  display: flex;
-  justify-content: center;
-  background-image: url('./img/wall.png');
+    margin-top: 0;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    background-image: url('./img/wall.png');
 }
-.container{
-    display:flex;
-    margin: 0 250px 0 250px;
+
+/* MAIN-------------------------------*/
+.container {
+    display: flex;
+    margin: 0 100px 0 100px;
 }
-.card{
-    display:flex;
+
+.card {
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
-
 }
-.card-pin{
+
+.card-pin {
     display:flex;
-    justify-content: center;
-    align-items:center;
+    width: 30px;
+    justify-content:center;
+ align-items:center;   
 }
-.card-item{
-    background-color:white;
+
+.card-item {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.card-img {
+    width: 300px;
+    height: 250px;
+}
+
+.card-text {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.date {
+    color: grey;
+    margin-bottom: 0;
 }
