@@ -1,0 +1,21 @@
+
+body{
+    margin: 0 30px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: grey;
+   
+}
+h1.title {
+    margin-top:0;
+ font-family: 'Baloo 2', sans-serif;
+  display: flex;
+  justify-content: center;
+  background-image: url('./img/wall.png');
+}
+.container{
+    background-image: url('./img/cork.png')
+}
+.card-item{
+    display:flex;
+}
