@@ -1,7 +1,7 @@
 /* BODY---------------------*/
 * {
     box-sizing: border-box;
-    font-family: 'Baloo 2', sans-serif;
+    font-family: 'Edu TAS Beginner', sans-serif;
 }
 body {
     margin: 0;
@@ -55,4 +55,6 @@ h1.title {
 .date {
     color: grey;
     margin-bottom: 0;
+    font-family:'Sometype Mono', monospace;
+    font-size: 11px;
 }
