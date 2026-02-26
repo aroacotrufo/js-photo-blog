@@ -6,10 +6,77 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('./img/cork.png')      
+    background-image: url('./img/cork.png');
+
 }
 /* HEADER-------------------------------*/
 h1.title {
     margin-top: 0;
     font-size: 50px;
     display: flex;
+    justify-content: center;
+    background-image: url('./img/wall.png');
+}
+
+/* MAIN-------------------------------*/
+.container {
+    display: flex;
+    margin: 0 100px 0 100px;
+    
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-pin {
+    display:flex;
+    width: 30px;
+    justify-content:center;
+ align-items:center;   
+}
+
+.card-item {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.card-img {
+    width: 300px;
+    height: 250px;
+}
+
+.card-text {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.date {
+    color: grey;
+    margin-bottom: 0;
+    font-family:'Sometype Mono', monospace;
+    font-size: 11px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(53, 50, 50, 0.525);
+    display: flex;
+    justify-content: center;
+   
+}
+.overlay-img {
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+}
+.close-btn {
+    display:flex;
+    position: absolute;
+}
